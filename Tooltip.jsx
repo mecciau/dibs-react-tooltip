@@ -408,7 +408,7 @@ Tooltip.propTypes = {
     onCloseClick: PropTypes.func,
     onThresholdPassed: PropTypes.func,
     getBounds: PropTypes.func,
-    dataTn: PropTypes.string,
+    dataTn: PropTypes.string.isRequired,
 };
 
 Tooltip.defaultProps = {
